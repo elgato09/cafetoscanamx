@@ -1,0 +1,174 @@
+body{
+  background-color: #F1ADBA;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.navbar{
+  background-color: #F7F6F6;
+  padding: 15px 0;
+}
+
+.nav-btn{
+  color: #F26671;
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 12px 25px !important;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.nav-btn:hover{
+  background-color: #E6E6E6;
+  color: #F26671;
+}
+
+.login-btn{
+  color: #F26671;
+  font-family: "Katibeh", serif;
+  font-size: 35px;
+  padding: 8px 25px !important;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.login-btn:hover{
+  background-color: #E6E6E6;
+  color: #F26671;
+}
+
+
+.encabezado{
+  padding: 40px 0 20px;
+}
+
+.titulo{
+  color: white;
+  font-family: "Katibeh", serif;
+  font-size: 90px;
+  margin: 0;
+}
+
+
+.menu-lateral{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-btn{
+  background-color: white;
+  color: #F26671;
+  padding: 15px 20px;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.menu-btn:hover{
+  background-color: #F7F6F6;
+  transform: translateX(5px);
+}
+
+
+.carrito-card{
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.imagen-carrito{
+  flex: 1;
+  text-align: center;
+}
+
+.imagen-carrito img{
+  width: 100%;
+  max-width: 320px;
+  border-radius: 25px;
+}
+
+.lista-compras{
+  flex: 1;
+}
+
+.producto-item{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #F7F6F6;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: #67C1C4;
+  font-weight: 500;
+}
+
+.producto-item img{
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.btn-comprar{
+  display: block;
+  text-align: center;
+  background-color:#F1ADBA;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-comprar:hover{
+  background-color:#67C1C4;
+}
+
+
+footer{
+  background-color:#67C1C4;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin-top: 50px;
+}
+
+.social img{
+  margin: 10px;
+}
+
+
+@media(max-width: 992px){
+
+  .titulo{
+    font-size: 70px;
+  }
+
+  .carrito-card{
+    flex-direction: column;
+  }
+
+}
+
+@media(max-width: 576px){
+
+  .titulo{
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .producto-item{
+    flex-direction: column;
+    text-align: center;
+  }
+
+}

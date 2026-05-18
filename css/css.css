@@ -1,0 +1,96 @@
+body{
+  background-color: #F396B1;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.navbar{
+  background-color: #F7F6F6;
+  padding: 15px 0;
+}
+
+.nav-btn{
+  color: #F26671;
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 12px 25px !important;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.nav-btn:hover{
+  background-color: #E6E6E6;
+  color: #F26671;
+}
+
+.login-btn{
+  color: #F26671;
+  font-family: "Katibeh", serif;
+  font-size: 35px;
+  padding: 8px 25px !important;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.login-btn:hover{
+  background-color: #E6E6E6;
+  color: #F26671;
+}
+
+
+.hero{
+  background-color: #F1ADBA;
+  border-radius: 30px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.hero-img{
+  border-radius: 30px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.titulo{
+  font-family: "Katibeh", serif;
+  font-size: 100px;
+  color: white;
+}
+
+.descripcion{
+  font-family: "Katibeh", serif;
+  font-size: 35px;
+  color: white;
+  line-height: 1.2;
+}
+
+
+footer{
+  background-color:#67C1C4;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  color: white;
+}
+
+.social img{
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+@media(max-width: 992px){
+
+  .titulo{
+    font-size: 70px;
+  }
+
+  .descripcion{
+    font-size: 28px;
+  }
+
+  .hero{
+    padding: 25px;
+  }
+
+}
